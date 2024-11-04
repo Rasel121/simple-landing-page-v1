@@ -1,0 +1,37 @@
+@media screen and (max-width:900px) {
+    .container{
+        width: 320px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        align-items: center;
+        background-color: green;
+        color: red;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin: 10px;
+        transition: all 2s;
+    }
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width: 300px;
+        display: block;
+        margin-top: -400px;
+    }
+
+    .card{
+        align-items: center;
+        background-color: rgb(0, 30, 128);
+        text-align: center;
+        color: white;
+        transition: all 2s;
+    }
+}
